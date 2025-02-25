@@ -8,14 +8,16 @@
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
         
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #ffe4e1;
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            position: relative;
-        }
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+font-size: 1.25em;
+    background-color: #ffe4e1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
         
         .container {
             width: 80%;
@@ -67,13 +69,14 @@
         }
 
         .photo-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top: 50px;
-            position: relative;
-            min-height: 100vh;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative; /* Change from absolute */
+    min-height: 130vh; /* Ensure enough height for spacing */
+}
+
 
         /* Fade In Animation */
         @keyframes fadeIn {
@@ -110,6 +113,15 @@
             border: 10px solid white;
             box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
         }
+.ending-text {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ff4d6d;
+    padding: 50px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
     </style>
 </head>
 <body>
@@ -120,13 +132,38 @@
 
     <div class="container">
         <h1 class="message">Happy Birthday Princeeee♡<span class="straight">!</span></h1>
-        <p>Wishing you all the happiness and love in the world!</p>
+        <p>I still remember my first day at Anselms, I entered 2nd A and the first person I saw in the class, a cutie lost in her own thoughts.</p>
+<p>Although I was fascinated by the place, but idk someone was grabbing my attention more than the school.</p>
+<p>Then as time passed we became friends, but me being me, shy as always, used to run away from her. I still remember she beating me with a lunch box in recess.</p>
+<p>Then came 3rd C as the next stop.. We became better friends. We started to play and eat together, sitting on the stairs outside class.. I remember not skipping school just to meet her..</p>
+<p>Then after a year of separation, which just had me jealous seeing her laughing with others, came possibly the best year of my school life, 5'D.</p>
+<p>This was the first time i checked the notice board to look at 'My section'.. or rather.. 'Her section'. I remember running in the whole corridor checking whether she is with me or not. And our paths coincided again!</p>
+<p>We started laughing, playing, eating and most importantly Monitoring the class together ;⁠). I can never forget that place where we used to have lunch together, teasing mayank and muskan.</P
+<p>What happened next was possibly one of the worst phases of my life. We didn't talk to each other, I couldn't face her. But still cared for her, so used to ask others whether she was alright?!</p>
+<p>Then destiny decided to play its part and out of nowhere, we started talking again, after 4 years.
+Slowly we became best friends again, tolerating her was the toughest part though!</p>
+<p>We just fought, sorted it.. then fought and sorted it.. and this cycle never stopped! With only a thing common every time, that galti hamesha meri hi hoti thi, uski to ho hi nahi sakti na kyunki.. "Ek baar ko Bhagwan galat ho sakte hain.. vo nahi"..</p>
+<p>aise hi bakchodi bhari dosti chalti gyi ldaiyo se bharpoor. Beech beech me naye naye log aaye, or ye kutti udhar bhag gayi har baar. Or fir isko hosh aaya ki galti kardi, to fir idhar aagyi har baar. Vo kya h na ki m to hu hi best! Hehehe!</p>
+<p>Fir bhi, She matters to me a lott, i can literally just give up everything for her. She fills my life with happiness, excitement, love. There's nothing i can do to describe what is she for me.</p>
+<p>Meri RadhaRani hai!</p>
+<p>Chal bhot hogya tera, zada hi boldiya maine vaise bhi..</p>
     </div>
     
     <div class="emoji-container" id="emojiContainer"></div>
     
     <div class="photo-gallery" id="photoGallery"></div>
-    
+<div class="ending-text">
+    <h2>And here we are today...</h2>
+    <p>So many memories, so many fights, and yet, we're still with each other.</p>
+    <p>Through all the ups and downs, you've been a huge part of my life, and I can't imagine it without you.</p>
+    <p>Once again, Happy Birthday Bdtmzzz !🥰</p>
+   <p>Love you more than you can imagine🫂</p>
+<p>Take care🫶</p>
+<p>And I hope you liked it.. Bhot mehnat lagi hai ! Ik this seems easy but wasn't.</p>
+<p>Chl bhagjaaaaaaa !</p>
+
+    <p>With love, Shashwadhhh..❤️</p>
+</div>
     <script>
         function startEmojis() {
             const emojiContainer = document.getElementById('emojiContainer');
@@ -154,11 +191,11 @@
         function loadPhotos() {
             const photoGallery = document.getElementById('photoGallery');
             const photoPositions = [
-                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252861/1_hrtmr8.jpg', left: 100, top: 425, rotation: -10 },
-                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252860/2_extcg3.jpg', left: 565.5, top: 400, rotation: 0 },
-                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252861/3_lcg4y7.jpg', left: 1035, top: 425, rotation: 10 },
-                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252861/4_d95yuv.jpg', left: 332.25, top: 900, rotation: 10 },
-                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740253293/5.1_xrubu3.jpg', left: 800.25, top: 900, rotation: -10 }
+                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252861/1_hrtmr8.jpg', left: 100, top: 0, rotation: -10 },
+                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252860/2_extcg3.jpg', left: 565.5, top: -30, rotation: 0 },
+                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252861/3_lcg4y7.jpg', left: 1035, top: 0, rotation: 10 },
+                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740252861/4_d95yuv.jpg', left: 332.25, top: 475, rotation: 10 },
+                { url: 'https://res.cloudinary.com/dmvjwtpnh/image/upload/v1740253293/5.1_xrubu3.jpg', left: 800.25, top: 475, rotation: -10 }
             ];
             
             photoPositions.forEach((photo) => {
